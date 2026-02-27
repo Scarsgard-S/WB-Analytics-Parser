@@ -1,9 +1,9 @@
 <h1 align="center">🛍️ Wildberries Analytics PRO</h1>
 
 <p align="center">
-  <img src="[https://img.shields.io/badge/Python-3.10+-blue.svg](https://img.shields.io/badge/Python-3.10+-blue.svg)" alt="Python">
-  <img src="[https://img.shields.io/badge/Status-Production_Ready-success.svg](https://img.shields.io/badge/Status-Production_Ready-success.svg)" alt="Status">
-  <img src="[https://img.shields.io/badge/API-Mobile_Internal-orange.svg](https://img.shields.io/badge/API-Mobile_Internal-orange.svg)" alt="API">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" alt="Python">
+  <img src="https://img.shields.io/badge/Status-Production_Ready-success.svg" alt="Status">
+  <img src="https://img.shields.io/badge/API-Mobile_Internal-orange.svg" alt="API">
 </p>
 
 ## 📋 О проекте
@@ -23,13 +23,14 @@
 ## 📸 Скриншоты работы
 
 **1. Процесс сбора данных (CLI):**
-![Console Run](assets/console_run.jpg)
+![Console Run](assets/console_run.png)
 
 **2. Дашборд аналитики (Сводка по нише):**
-![Dashboard](assets/excel_dashboard.jpg)
+![Dashboard](assets/excel_dashboard.png)
 
 **3. Умная таблица с результатами:**
-![Excel Data](assets/excel_data.jpg)
+![Excel Data 1](assets/excel_data_1.png)
+![Excel Data 2](assets/excel_data_2.png)
 
 ## 🛠 Технический стек
 - **Язык:** `Python 3.10`
@@ -43,3 +44,4 @@
 1. Склонируйте репозиторий:
    ```bash
    git clone https://github.com/ВАШ_НИК/WB_Analytics_Tool.git
+
