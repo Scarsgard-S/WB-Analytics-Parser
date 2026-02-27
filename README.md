@@ -1,9 +1,9 @@
 <h1 align="center">🛍️ Wildberries Analytics PRO</h1>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" alt="Python">
-  <img src="https://img.shields.io/badge/Status-Production_Ready-success.svg" alt="Status">
-  <img src="https://img.shields.io/badge/API-Mobile_Internal-orange.svg" alt="API">
+<p align="center"> 
+  <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" alt="Python"> 
+  <img src="https://img.shields.io/badge/Status-Production_Ready-success.svg" alt="Status"> 
+  <img src="https://img.shields.io/badge/API-Mobile_Internal-orange.svg" alt="API"> 
 </p>
 
 ## 📋 О проекте
@@ -44,4 +44,34 @@
 1. Склонируйте репозиторий:
    ```bash
    git clone https://github.com/ВАШ_НИК/WB_Analytics_Tool.git
+   ```
+2. Установите зависимости:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Добавьте свои данные авторизации в файл скрипта (`src/wb_parser.py`):
+   - `x-queryid`
+   - `Cookie`
+   
+   *(Данные можно получить в DevTools браузера во вкладке Network при поиске любого товара на WB).*
+4. Запустите скрипт:
+   ```bash
+   python src/wb_parser.py
+   ```
 
+> ⚠️ **Отказ от ответственности:** Данный код предоставлен исключительно в образовательных целях. Использование скрипта для создания чрезмерной нагрузки на серверы Wildberries запрещено.
+
+---
+
+## 💼 Для заказчиков (Услуги сбора данных)
+Поскольку алгоритмы защиты маркетплейса регулярно обновляются и требуют актуальных сессионных данных (Cookies), программа публикуется в формате открытого исходного кода для разработчиков. 
+
+**Если вам нужны данные для анализа, но вы не хотите разбираться в коде:**
+Я предоставляю услуги профессионального сбора данных (Web Scraping). Вы получите готовый, чистый Excel-файл с настроенным дашбордом по вашей нише (как на скриншотах выше) без необходимости что-либо устанавливать. 
+
+Возможна доработка логики скрипта под ваши бизнес-задачи:
+- Добавление новых метрик;
+- Парсинг определенных категорий;
+- Интеграция отчетов в Telegram-ботов.
+
+Открыт к сотрудничеству!
